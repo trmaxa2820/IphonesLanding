@@ -1,5 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
 .content{
-    width: 1512px;
+    /* width: 1512px; */
     margin: 0px auto;
     text-align: center;
+}
+
+.header {
+    height: 913px;
+
+    padding-top: 111px;
+    margin-bottom: 245px;
+    background-color: #121212;
+}
+
+.header h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 171px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.header span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 62px;
+    color: #F5F5F5;
+}
+
+.content__img {
+    margin: 0 auto;
+    width: 1299px;
+}
+
+.main h1 {
+    width: 765px;
+    height: 166px;
+
+    margin: 0 auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #262525;
+}
+
+.main p {
+    margin: 0 auto 14px;
+    width: 967px;
+    min-height: 210px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 157.4%;
+
+    text-align: center;
+
+    color: #262525;
+}
+
+.select-iphones-nav {
+    margin-bottom: 264px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.select-iphones-nav #iphone-select {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 157.4%;
+
+    text-align: center;
+
+    color: #262525;
+}
+
+.iphone-model-content {
+    height: 567px;
+    background-color: #121212;
+    margin-bottom: 78px;
+}
+
+.iphone-model {
+    margin: 0 auto;
+    height: 615.26px;
+    width: 1261px;
+    position: relative;
+    bottom: 100px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../resources/iphones-model.png');
+}
+
+.iphone-model h2 {
+    position: relative;
+    top: 91px;
+    left: 225px;
+    width: 811px;
+    margin-bottom: 60px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.iphone-model h3 {
+    position: relative;
+    top: 60px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 157.4%;
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.iphone-model p {
+    position: relative;
+    top: 73px;
+    left: 155px;
+    width: 941px;
+
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 125%;
+
+    text-align: center;
+
+    color: #7A7A7A;
+}
+
+.iphone-select h2{
+    margin-bottom: 57px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+
+    text-align: center;
+
+    color: #292929;
+}
+
+.iphone-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 33px;
+    width: 1264px;
+}
+
+.btn-move-left {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+
+    background-color: #FFFFFF;
+    
+    border: none;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.15);
+}
+
+.btn-move-left img{
+    width: 64px;
+}
+
+.btn-move-right {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+
+    background-color: #FFFFFF;
+    
+    border: none;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.15);
+}
+
+.btn-move-right img{
+    width: 64px;
+}
+
+.iphone-card {
+    background-color: #1B1B1B;
+    margin-left: 24px;
+
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+.iphone-card-description h4 {
+
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 5px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.iphone-card__color {
+    margin-left: 24px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.iphone-card__price {
+    margin-left: 24px;
+    margin-bottom: 16px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+
+    color: #F1F8FF;
+}
+
+.card__btn-cart{
+    margin-bottom: 24px;
+
+    width: 336px;
+    height: 66px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+
+.iphone-card:nth-last-child(1){
+    margin-left: 0px;
+}
+
+.card-selector {
+    margin: 0 auto 61px;
+}
+
+.advantages{
+    padding-top: 70.87px;
+
+    background-color: #1B1B1B;
+}
+
+.advantages h2{
+    width: 671px;
+    
+    margin: 0 auto 28px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+
+.advantages p{
+    width: 607px;
+
+    margin: 0 auto 55px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.iphone-video{
+    width: 993px;
+    margin-bottom: 28.16px;
+}
+
+.rectangle{
+    width: 100%;
+}
+
+.rectangle img {
+    width: 100%;
+    height: 109.97px;
+    margin-bottom: 73px;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.order img{
+    width: 674px;
+    height: 320px;
+    margin-bottom: 93px;
+}
+
+.order-conteiner{
+    width: 419px;
+}
+.order-conteiner p{
+    margin-bottom: 32px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #727272;
+}
+
+.email-input{
+    box-sizing: border-box;
+    display: flex;
+    width: 419px;
+
+    padding: 8px 0;
+
+    border: 1.5px solid #C8C8C8;
+    border-radius: 32px;
+}
+
+.email-input input{
+    margin-left: 24px;
+    border: none;
+    width: 100%;
+}
+
+.email-input button{
+    margin-right: 8px;
+    width: 151px;
+    height: 49px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #262525;
+    border-radius: 32px;
+}
+
+footer{
+    width: 100%;
+    height: 343px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #1D1C1C;
+}
+
+.media{
+    margin-left: 105px;
+}
+
+.media h4{
+    margin-bottom: 14px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.media p{
+    width: 320px;
+
+    margin-bottom: 32px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: #C8C8C8;
+}
+
+.media ul{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.media .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32px;
+    height: 32px;
+
+    border-radius: 32px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navigation{
+    display: flex;
+    gap: 24px;
+    margin-right: 98px;
+}
+
+.company h4,.support h4,.StayUpToDate h4{
+    margin-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #EFEEEF;
+}
+
+.company a,.support a{
+    margin-bottom: 12px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+
+    color: #C8C8C8;
+}
+
+.company li:nth-last-child(1),.support li:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+.email-stayUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px 24px;
+    width: 220px;
+    height: 53px;
+
+    background: #545454;
+    border-radius: 32px;
+}
+
+.email-stayUp input{
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.email-stayUp input::placeholder{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+}
+
+.email-stayUp button{
+    width: 18px;
+    height: 18px;
+
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+
+    cursor: pointer;
 }
