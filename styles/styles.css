@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
 
 .content{
-    /* width: 1512px; */
+    min-width: 1507px;
     margin: 0px auto;
     text-align: center;
 }
@@ -87,13 +87,14 @@
     gap: 6px;
 }
 
-.select-iphones-nav #iphone-select {
+.select-iphones-nav a{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 157.4%;
 
+    text-decoration: none;
     text-align: center;
 
     color: #262525;
@@ -501,6 +502,10 @@ footer{
     line-height: 30px;
 
     color: #EFEEEF;
+}
+
+.company li, .support li{
+    text-align: left;
 }
 
 .company a,.support a{
