@@ -27,7 +27,7 @@
     color: #FFFFFF;
 }
 
-.header span {
+.header p {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -40,9 +40,10 @@
     color: #F5F5F5;
 }
 
-.content__img {
+.content__img img{
     margin: 0 auto;
     width: 1299px;
+    height: 743px;
 }
 
 .main h1 {
@@ -119,7 +120,7 @@
 }
 
 .iphone-model h2 {
-    position: relative;
+    position: absolute;
     top: 91px;
     left: 225px;
     width: 811px;
@@ -138,8 +139,10 @@
 }
 
 .iphone-model h3 {
-    position: relative;
-    top: 60px;
+    position: absolute;
+    width: 874px;
+    top: 317px;
+    left: 185px;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -153,8 +156,8 @@
 }
 
 .iphone-model p {
-    position: relative;
-    top: 73px;
+    position: absolute;
+    top: 390px;
     left: 155px;
     width: 941px;
 
